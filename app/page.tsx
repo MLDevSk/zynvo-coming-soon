@@ -227,6 +227,7 @@ export default function ZynvoComingSoon() {
                     <Button
                       variant="outline"
                       className="border-gray-700 text-gray-300 hover:bg-gray-800 hover:text-white font-medium px-8 py-3 rounded-lg transition-all duration-200 flex items-center justify-center"
+                      onClick={() => window.open('https://www.instagram.com/zynvo.ai?igsh=MWlkZ3V0NWJobGFqcQ==', '_blank', 'noopener,noreferrer')}
                     >
                       <Play className="w-4 h-4 mr-2" />
                       Preview Experience
@@ -639,3 +640,4 @@ export default function ZynvoComingSoon() {
     </div>
   )
 }
+
